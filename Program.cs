@@ -13,7 +13,7 @@ class HelloWorld
 
         Calculator(Console.ReadLine());
 
-        while(true)
+        while (true)
         {
             ResetApplication();
         }
@@ -21,7 +21,7 @@ class HelloWorld
 
     public static void Calculator(string operations)
     {
-        switch(operations)
+        switch (operations)
         {
             case "Add":
                 Console.WriteLine("First number? ");
@@ -71,7 +71,7 @@ class HelloWorld
                 Thread.Sleep(myDelay);
 
                 Console.Clear();
-                
+
                 Console.WriteLine("Which operation would you like to use? --> Add, Subtract, Multiply, Divide <--");
                 Calculator(Console.ReadLine());
                 break;
@@ -126,5 +126,5 @@ class HelloWorld
                 ResetApplication();
                 break;
         }
-     }
     }
+}
